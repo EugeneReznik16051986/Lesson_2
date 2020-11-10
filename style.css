@@ -1,0 +1,134 @@
+body {
+    max-width: 1260px;
+    font-family: "Myriad Pro Regular", "Open Sans", sans-serif;
+    margin: auto;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navigation-menu {
+    margin: 20px auto;
+  }
+  
+  
+  .navigation-menu-item {
+    font-size: 15px;
+    color: #949494;
+    padding-right: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  
+  .navigation-menu-item:last-child {
+    padding-right: 0px;
+  }
+  
+  
+  .divide-menu {
+    background-image: url(img/divide-menu.png);
+    width: 79px;
+    height: 55px;
+    position: relative;
+    margin: 0px auto;
+    background-position: center center;
+  }
+  
+  
+  .divide-menu::before {
+    right: 70px;
+    top: 50%;
+  }
+  
+  
+  .divide-menu::after {
+    left: 70px;
+    top: 50%;
+  }
+  
+  
+  .divide-menu::before,
+  .divide-menu::after {
+    content: "";
+    width: 600px;
+    height: 2px;
+    background-color: #949494;
+    position: absolute;
+    opacity: 60%;
+  }
+  
+  
+  .food-dishes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  
+  .main-selection {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 25px;
+    font-weight: 400;
+    align-items: center;
+    color: #5b5b5b;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  #sample-item {
+    letter-spacing: 0.001em;
+    font-size: 41px;
+    margin: 12px 0px 57px 0px;
+    position: relative;
+  }
+  
+  
+  #sample-item-2 {
+    letter-spacing: 0.001em;
+    font-size: 41px;
+    margin: 12px 0px 57px 0px;
+    position: relative;
+    max-width: 390px;
+  }
+  
+  
+  .sample {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: url(img/image__1.jpg);
+    height: 470px;
+    width: 623px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 19px;
+  }
+  
+  
+  .sample-2 {
+    background: url(img/image__2.jpg);
+    height: 470px;
+    width: 623px;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
